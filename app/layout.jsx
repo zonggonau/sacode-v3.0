@@ -12,7 +12,7 @@ export const metadata = {
     url: "https://sacode.web.id",
     images: [
       {
-        url: "../public/assets/img/avatar/footer-avatar.png",
+        url: "assets/img/logo/logo-sacode-meta.jpg",
         width: 800,
         height: 600,
       },
