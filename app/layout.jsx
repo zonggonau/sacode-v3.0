@@ -8,7 +8,7 @@ export const metadata = {
   title: "SaCode",
   description: "Komunitas Teknologi Informasi dan Sekolah Coding di Papua.",
   openGraph: {
-    title: "sacode",
+    title: "SaCode",
     url: "https://sacode.web.id",
     images: [
       {
