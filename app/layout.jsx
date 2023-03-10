@@ -6,7 +6,15 @@ import Head from "./head";
 
 export const metadata = {
   title: "SaCode",
+  url: "https://sacode.web.id",
   description: "Komunitas Teknologi Informasi dan Sekolah Coding di Papua.",
+  images: [
+    {
+      url: "../public/assets/img/avatar/footer-avatar.png",
+      width: 800,
+      height: 600,
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
