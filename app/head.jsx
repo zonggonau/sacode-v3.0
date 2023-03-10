@@ -1,15 +1,13 @@
 import DefaultTags from "./defaulttags";
-
-const metadata = {
-  title: "SaCode Website",
-  desc: "Website resmi sacode bla bla bla",
+export const metadata = {
+  title: "SaCode",
+  description: "Komunitas Teknologi Informasi dan Sekolah Coding di Papua.",
 };
 
 export default function Head() {
   return (
     <>
       <DefaultTags />
-      <title>SaCode</title>
     </>
   );
 }

@@ -4,6 +4,11 @@ import Footer from "@/components/config/footer";
 import JoinSection from "@/components/home/joinsection";
 import Head from "./head";
 
+export const metadata = {
+  title: "SaCode",
+  description: "Komunitas Teknologi Informasi dan Sekolah Coding di Papua.",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html className="no-js" lang="en">
