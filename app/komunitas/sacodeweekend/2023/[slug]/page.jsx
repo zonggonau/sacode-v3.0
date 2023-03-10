@@ -4,7 +4,7 @@ import { getSacodeWeekendById } from "@/lib/api";
 
 export default async function page({ params }) {
   const { data } = await getSacodeWeekendById(params.slug);
-  console.log(data.topic);
+  console.log(data);
   return (
     <div>
       <section
@@ -24,7 +24,7 @@ export default async function page({ params }) {
                 </h3>
 
                 <p className="my-4">{data.about}</p>
-                <Link href="#mengapa-penting" className="btn scroll">
+                <Link href="/daftar" className="btn scroll">
                   <i className="fas fa-book-open mr-2"></i> Daftar Sekarang
                 </Link>
               </div>
@@ -38,7 +38,7 @@ export default async function page({ params }) {
                 data-aos-duration="1000"
               >
                 <Image
-                  src={`http://adminpanel.sacode.web.id/storage/sacodesweekends/${data.profile_picture}`}
+                  src={`https://adminpanel.sacode.web.id/storage/${data.poster}`}
                   width={500}
                   height={500}
                   alt=""

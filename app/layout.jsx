@@ -1,4 +1,3 @@
-import Script from "next/script";
 import Header from "@/components/config/header";
 import Footerconfig from "@/components/config/footerconfig";
 import Footer from "@/components/config/footer";
@@ -20,8 +19,8 @@ export default function RootLayout({ children }) {
           <Footer />
         </div>
         <div id="example"></div>
+        <Footerconfig />
       </body>
-      <Footerconfig />
     </html>
   );
 }

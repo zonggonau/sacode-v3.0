@@ -1,3 +1,10 @@
+import Footerconfig from "@/components/config/footerconfig";
+
 export default function Komunitas() {
-  return <div>Komunitas</div>;
+  return (
+    <div>
+      Komunitas
+      <Footerconfig />
+    </div>
+  );
 }

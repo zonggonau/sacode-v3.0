@@ -91,14 +91,14 @@ export default function Header() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="pelatihan">
+                <Link className="nav-link" href="/pelatihan">
                   <i className="fas fa-book-open"></i> Pelatihan
                 </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
-                  href="komunitas"
+                  href="/"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -128,17 +128,14 @@ export default function Header() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li className="dropdown-submenu">
-                    <Link
-                      className="dropdown-item dropdown-toggle"
-                      href="javascript"
-                    >
+                    <Link className="dropdown-item dropdown-toggle" href="/">
                       SaCode's Weekend
                     </Link>
                     <ul className="dropdown-menu">
                       <li>
                         <Link
                           className="dropdown-item"
-                          href="/komunitas/sacodeweekend"
+                          href="/komunitas/sacodeweekend/2023"
                         >
                           2023
                         </Link>
@@ -146,7 +143,7 @@ export default function Header() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          href="/sacodes-weekend-2022"
+                          href="/komunitas/sacodeweekend/2022"
                         >
                           2022
                         </Link>
@@ -154,7 +151,7 @@ export default function Header() {
                       <li>
                         <Link
                           className="dropdown-item"
-                          href="/sacodes-weekend-2021"
+                          href="komunitas/sacodeweekend/2021"
                         >
                           2021
                         </Link>
@@ -162,10 +159,7 @@ export default function Header() {
                     </ul>
                   </li>
                   <li className="dropdown-submenu">
-                    <Link
-                      className="dropdown-item dropdown-toggle"
-                      href="/javascript"
-                    >
+                    <Link className="dropdown-item dropdown-toggle" href="/">
                       SaCode Live
                     </Link>
                     <ul className="dropdown-menu">
