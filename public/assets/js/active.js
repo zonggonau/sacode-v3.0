@@ -124,10 +124,10 @@
   });
 
   // :: 6.0 AOS ACTIVE CODE
-  // AOS.init();
+  AOS.init();
 
   // :: 7.0 WOW ACTIVE CODE
-  // new WOW().init();
+  new WOW().init();
 
   // :: 8.0 PREVENT DEFAULT ACTIVE CODE
   $("a[href='#']").on("click", function ($) {
@@ -135,21 +135,21 @@
   });
 
   // :: 9.0 COUNTERUP ACTIVE CODE
-  // $(".counter").counterUp({
-  //   delay: 10,
-  //   time: 1000,
-  // });
+  $(".counter").counterUp({
+    delay: 10,
+    time: 1000,
+  });
 
   // :: 10.0 FANCYBOX VIDEO POPUP ACTIVE CODE
-  // $(".play-btn").fancybox({
-  //   animationEffect: "zoom-in-out",
-  //   transitionEffect: "circular",
-  //   maxWidth: 800,
-  //   maxHeight: 600,
-  //   youtube: {
-  //     controls: 0,
-  //   },
-  // });
+  $(".play-btn").fancybox({
+    animationEffect: "zoom-in-out",
+    transitionEffect: "circular",
+    maxWidth: 800,
+    maxHeight: 600,
+    youtube: {
+      controls: 0,
+    },
+  });
 
   // :: 11.0 FEATURES SLIDER ACTIVE CODE
   $(".features-slider.owl-carousel").owlCarousel({
