@@ -19,8 +19,9 @@ export default function RootLayout({ children }) {
           <JoinSection />
           <Footer />
         </div>
-        <Footerconfig />
+        <div id="example"></div>
       </body>
+      <Footerconfig />
     </html>
   );
 }

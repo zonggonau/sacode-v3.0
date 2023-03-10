@@ -4,7 +4,7 @@ $("#example").czmChatSupport({
     position:
       "right" /* left, right or false. "position:false" does not pin to the left or right */,
     style: 3 /* Button style. Number between 1 and 7 */,
-    src: '<i className="fab fa-whatsapp"></i>' /* Image, Icon or SVG */,
+    src: '<i class="fab fa-whatsapp"></i>' /* Image, Icon or SVG */,
     backgroundColor: "#10c379" /* Html color code */,
     effect: 4 /* Button effect. Number between 1 and 7 */,
     notificationNumber:

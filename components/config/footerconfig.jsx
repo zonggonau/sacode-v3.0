@@ -2,8 +2,6 @@ import Script from "next/script";
 export default function Footerconfig() {
   return (
     <>
-      <div id="example"></div>
-      {/* 
       <Script
         src="plugin/components/jquery/jquery-1.9.0.min.js"
         strategy="lazyOnload"
@@ -25,7 +23,7 @@ export default function Footerconfig() {
         strategy="lazyOnload"
       />
       <Script src="assets/js/plugins/plugins.min.js" strategy="lazyOnload" />
-      <Script src="assets/js/active.js" strategy="lazyOnload" /> */}
+      <Script src="assets/js/active.js" strategy="lazyOnload" />
     </>
   );
 }
