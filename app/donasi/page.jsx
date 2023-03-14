@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function page() {
+export default function D() {
   return (
     <>
       <section
@@ -12,7 +12,7 @@ export default function page() {
         <div className="container h-100">
           <div className="row align-items-center h-100">
             <div className="col-12 col-md-7">
-              <div className="welcome-intro" data-aos="fade-up">
+              <div className="welcome-intro">
                 <h1 style={{ color: "#201a84" }}>
                   <i className="fas fa-hand-point-up"></i> Donasi
                 </h1>

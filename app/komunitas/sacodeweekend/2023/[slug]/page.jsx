@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getSacodeWeekendById } from "@/lib/api";
+import Footerconfig from "@/components/config/footerconfig";
 
 export default async function page({ params }) {
   const { data } = await getSacodeWeekendById(params.slug);
